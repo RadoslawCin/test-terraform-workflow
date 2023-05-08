@@ -1,1 +1,3 @@
-print("Witaj Świecie")
+def witaj():
+    print("Witaj Świecie")
+witaj()

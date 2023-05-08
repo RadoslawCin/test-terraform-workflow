@@ -11,9 +11,6 @@ on:
 jobs:
   terraform:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: $Terraform_projects
     steps:
       - uses: actions/checkout@v2
 

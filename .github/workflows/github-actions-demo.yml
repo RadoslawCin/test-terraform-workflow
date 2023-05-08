@@ -11,6 +11,9 @@ on:
 jobs:
   terraform:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: $DIR_OF_CHOICE
     steps:
       - uses: actions/checkout@v2
 
